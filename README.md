@@ -16,6 +16,7 @@ npm i
 npm run dev
 ```
 
+<<<<<<< HEAD
 To serve a production build:
 
 ```bash
@@ -23,6 +24,13 @@ To serve a production build:
 
 # Build for production
 npm run build
+=======
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can start editing the page by modifying `app/page.tsx`
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font
+
+>>>>>>> a832e07e96e5907cc25f02306ae358c4906c0d37
 
 # Serve the build using express
 npm start
