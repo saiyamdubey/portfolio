@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import ContactForm from '@/components/ContactForm';
 import { ContactFormProvider, MenuProvider } from '@/components/Provider';
 import { Toaster } from 'react-hot-toast';
-
+import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
     title: 'Ez Snippet',
     description: 'Learning made EZ',
@@ -28,6 +28,7 @@ export default function RootLayout({
                             <main className="flex-1 pl-0 lg:pl-[300px]">
                                 <Navbar />
                                 {children}
+                                <Analytics />
                             </main>
                         </div>
                     </ContactFormProvider>
