@@ -42,7 +42,7 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
+      <List link="https://www.instagram.com/_saiyam_dubey/" effect="slideUp">
         <Video /> Videos
       </List>
 
@@ -50,31 +50,24 @@ const Menu: FC<MenuProps> = ({}) => {
       <div className="mt-5">Socials</div>
       <List
         target="_blank"
-        link="https://www.instagram.com/ezsnippet/"
+        link="https://www.instagram.com/_saiyam_dubey/"
         effect="slideUp"
       >
         <Instagram color="#b5179e" /> Instagram
       </List>
-      <List target="_blank" link="https://github.com/nwaliaez" effect="slideUp">
+      <List target="_blank" link="https://github.com/saiyamdubey" effect="slideUp">
         <Github color="#2a9d8f" /> Github
       </List>
       <List
         target="_blank"
-        link="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
-        effect="slideUp"
-      >
-        <Youtube color="#e63946" /> Youtube
-      </List>
-      <List
-        target="_blank"
-        link="https://stackoverflow.com/users/20331641/neeraj-walia"
+        link="https://stackoverflow.com/users/23406768/saiyamdubey"
         effect="slideUp"
       >
         <Layers color="#f77f00" /> Stack overflow
       </List>
       <List
         target="_blank"
-        link="https://www.linkedin.com/in/ezSnippet/"
+        link="https://www.linkedin.com/in/saiyam-dubey-77a5371b8/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin
