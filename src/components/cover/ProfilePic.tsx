@@ -9,9 +9,9 @@ const ProfilePic: FC<ProfilePicProps> = ({}) => {
             <Image
                 alt="Neeraj Walia"
                 src="/images/profilePic.jpeg"
-                height={120}
-                width={120}
-                className="object-cover border-4 border-white rounded-full shadow-md"
+                height={110}
+                width={110}
+                className="object-cover border-2 border-white rounded-full shadow-md"
             />
         </div>
     );
